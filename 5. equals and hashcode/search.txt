@@ -1,0 +1,40 @@
+/*
+* EX1
+        Set<Student> students = new HashSet<>();
+        students.add(new Student(1, "ahmed"));
+        students.add(new Student(1, "ahmed"));
+        students.add(new Student(2, "osama"));
+        students.add(new Student(2, "osama"));
+        students.add(new Student(3, "ali"));
+
+        System.out.println(students);
+* EX2
+        Student student1 = new Student(1, "ahmed");
+        Student student2 = new Student(2, "osama");
+        Student student3 = new Student(1, "ali");
+
+        Set<Student> students = new HashSet<>();
+        students.add(new Student(1, "ahmed"));
+        students.add(new Student(2, "osama"));
+
+        System.out.println(students.contains(student1));
+        System.out.println(students.contains(student2));
+        System.out.println(students.contains(student3));
+
+* EX3
+       Student student1 = new Student(1, "ahmed");
+        Student student2 = new Student(2, "osama");
+        Student student3 = new Student(1, "ali");
+
+        HashMap<Student, Student> map = new HashMap<>();
+        map.put(new Student(1, "ahmed"), new Student(1, "ahmed"));
+        map.put(new Student(2, "osama"), new Student(2, "osama"));
+
+        System.out.println(map.containsKey(student1));
+        System.out.println(map.containsKey(student2));
+        System.out.println(map.containsKey(student3));
+
+        System.out.println(map.containsValue(student1));
+        System.out.println(map.containsValue(student2));
+        System.out.println(map.containsValue(student3));
+* */
