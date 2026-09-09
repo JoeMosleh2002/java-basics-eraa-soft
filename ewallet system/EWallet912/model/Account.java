@@ -1,27 +1,11 @@
-package main.eWalletSystem906.model;
+package main.EWallet912.model;
 
 public class Account {
-
     private String userName;
     private String password;
-    private double balance;
+    private Double balance;
     private String phoneNumber;
-    private Integer age;
-
-    public Account() {
-    }
-
-    public Account(String userName, String password) {
-        this.userName = userName;
-        this.password = password;
-    }
-    public Account(String userName, String password, String phoneNumber, Integer age) {
-        this.userName = userName;
-        this.password = password;
-        this.phoneNumber = phoneNumber;
-        this.age = age;
-        this.balance = 0;
-    }
+    private Float age;
 
     public String getUserName() {
         return userName;
@@ -39,11 +23,11 @@ public class Account {
         this.password = password;
     }
 
-    public double getBalance() {
+    public Double getBalance() {
         return balance;
     }
 
-    public void setBalance(double balance) {
+    public void setBalance(Double balance) {
         this.balance = balance;
     }
 
@@ -55,11 +39,11 @@ public class Account {
         this.phoneNumber = phoneNumber;
     }
 
-    public Integer getAge() {
+    public Float getAge() {
         return age;
     }
 
-    public void setAge(Integer age) {
+    public void setAge(Float age) {
         this.age = age;
     }
 }

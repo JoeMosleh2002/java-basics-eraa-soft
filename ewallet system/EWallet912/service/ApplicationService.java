@@ -1,4 +1,4 @@
-package main.g911.ewalletsystem.service;
+package main.EWallet912.service;
 
 public interface ApplicationService {
 
